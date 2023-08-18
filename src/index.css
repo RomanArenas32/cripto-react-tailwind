@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('./assets/img/cripto1.jpg');
+  background-size: cover; /* Esto hará que la imagen se adapte a la pantalla manteniendo la proporción */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  background-attachment: fixed; /* Fija la imagen de fondo mientras se desplaza la página */
+  color: white;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor-cripto{
+  width: 100vw;
+  height: 50vh;
+  background-image: url('./assets/img/cripto2.jpg');
+  background-size: cover; /* Esto hará que la imagen se adapte a la pantalla manteniendo la proporción */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen de fondo */
+  background-attachment: fixed;
+}
+option{
+  color: black;
+  font-weight: 700;
+}
+select{
+  color: black;
+}
